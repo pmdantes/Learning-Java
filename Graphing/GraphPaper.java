@@ -1,3 +1,5 @@
+package Graphing;
+
 import javax.swing.JFrame;
 import java.awt.*;
 
@@ -13,7 +15,7 @@ public class GraphPaper extends JFrame
     {
         if ( canvas == null )
         {
-            setTitle("GraphPaper");
+            setTitle("Graphing.GraphPaper");
             setSize(1100,950);
             setLocation(20,50);
 
